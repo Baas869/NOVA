@@ -1,0 +1,251 @@
+.about-breadcrumbs .breadcrumbs-section {
+  background: url(/img/about-header.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important; }
+
+.about .about-container {
+  margin-top: 3rem; }
+  .about .about-container .about-content {
+    max-width: 33.75rem;
+    margin: auto; }
+    .about .about-container .about-content .about-content--img {
+      width: 100%; }
+      .about .about-container .about-content .about-content--img img {
+        width: 100%; }
+    .about .about-container .about-content .about-content--info {
+      margin-top: 1rem; }
+      .about .about-container .about-content .about-content--info h3 {
+        font-weight: 700;
+        font-size: 2.25rem;
+        font-family: var(--secondary-font);
+        color: var(--secondary-color);
+        margin-bottom: 1rem; }
+      .about .about-container .about-content .about-content--info p {
+        margin: 1.875rem 0;
+        color: #29486a; }
+      .about .about-container .about-content .about-content--info ul {
+        list-style: none; }
+        .about .about-container .about-content .about-content--info ul li {
+          padding: 0 0 0.9375rem 1.625rem;
+          position: relative;
+          font-size: 0.9375rem;
+          font-weight: 600; }
+          .about .about-container .about-content .about-content--info ul li i {
+            position: absolute;
+            font-size: 1.25rem;
+            left: 0;
+            top: 3px;
+            color: var(--primary-color); }
+
+.about-why-us--container {
+  max-width: 33.75rem !important;
+  margin: auto; }
+
+.team .team-container {
+  margin: 3rem 0; }
+  .team .team-container .teams {
+    max-width: 33.75rem;
+    margin: auto; }
+    .team .team-container .teams .team-members--info {
+      margin-top: 1.5rem; }
+    .team .team-container .teams .team-members--info:hover .social {
+      opacity: 1; }
+    .team .team-container .teams .team-member {
+      overflow: hidden; }
+      .team .team-container .teams .team-member .member-img {
+        overflow: hidden;
+        width: 100%;
+        position: relative; }
+        .team .team-container .teams .team-member .member-img img {
+          width: 100%;
+          height: auto;
+          vertical-align: middle; }
+      .team .team-container .teams .team-member .social {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 40px;
+        opacity: 0;
+        transition: ease-in-out 0.4s;
+        background: rgba(255, 255, 255, 0.85);
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .team .team-container .teams .team-member .social a {
+          transition: color 0.3s;
+          color: #31547c;
+          margin: 0 10px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center; }
+          .team .team-container .teams .team-member .social a i {
+            font-size: 1.125rem;
+            margin: 0 2px; }
+        .team .team-container .teams .team-member .social a:hover {
+          color: var(--primary-color); }
+      .team .team-container .teams .team-member .member-info {
+        padding: 1.5625rem 0.9375rem 0 0.9375rem;
+        text-align: center; }
+        .team .team-container .teams .team-member .member-info h4 {
+          font-weight: 700;
+          margin-bottom: 5px;
+          font-size: 1.125rem;
+          color: var(--secondary-color); }
+        .team .team-container .teams .team-member .member-info span {
+          display: block;
+          font-size: 0.8125rem;
+          font-weight: 400;
+          color: #6c757d; }
+
+.margin-box {
+  margin: 3rem 0; }
+
+.service-breadcrumbs {
+  background: url(/img/services-header.jpg) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important; }
+
+.services-cards {
+  background: #f7f9fc;
+  padding: 5rem 0; }
+  .services-cards .services-cards--content {
+    max-width: 33.75rem;
+    margin: auto; }
+    .services-cards .services-cards--content .card-item:not(:first-child) {
+      margin-top: 1.5rem; }
+    .services-cards .services-cards--content .card-item {
+      border: 1px solid rgba(27, 47, 69, 0.1); }
+      .services-cards .services-cards--content .card-item .card-img {
+        width: 100%; }
+        .services-cards .services-cards--content .card-item .card-img .card-bg {
+          min-height: 18.75rem;
+          background-size: cover;
+          background-repeat: no-repeat; }
+      .services-cards .services-cards--content .card-item .card-content {
+        padding: 1.875rem;
+        background: var(--normal-color); }
+        .services-cards .services-cards--content .card-item .card-content h4 {
+          font-weight: 700;
+          font-size: 1.25rem;
+          margin-bottom: 0.9375rem;
+          color: var(--secondary-color); }
+        .services-cards .services-cards--content .card-item .card-content p {
+          color: var(--secondary-color);
+          margin: 0; }
+
+.testimonials .your-class {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0 !important;
+  width: 100% !important; }
+.testimonials .t-slider {
+  flex-shrink: 0;
+  width: 100%;
+  /* min-width: 100%; */
+  /* opacity: 0.3;  */ }
+.testimonials .t-slider .testimonial-item {
+  margin: 2.5rem 1.25rem;
+  padding: 1.875rem;
+  margin: 2.5rem 1.875rem;
+  box-shadow: 0px 0 20px rgba(27, 47, 69, 0.1);
+  background: #fff;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.3s; }
+.testimonials .t-slider .testimonial-item .stars {
+  margin-bottom: 0.9375rem; }
+.testimonials .t-slider .testimonial-item .stars i {
+  color: #ffc107;
+  margin: 0 1px; }
+.testimonials .t-slider .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 0.9375rem auto; }
+.testimonials .t-slider .testimonial-item .profile img {
+  width: 5.625rem;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto; }
+.testimonials .t-slider .testimonial-item .profile h3 {
+  font: size 1.125em;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111; }
+.testimonials .t-slider .testimonial-item .profile h4 {
+  font-size: 0.875rem;
+  color: #999;
+  margin: 0;
+  font: family var(--primary-font); }
+
+/* 760px */
+@media (min-width: 47.5rem) {
+  .about .about-container .about-content {
+    max-width: 40.75rem;
+    margin: auto; }
+
+  .about-why-us--container {
+    max-width: 40.75rem !important;
+    margin: auto; }
+
+  .team .team-container .teams {
+    max-width: 49.5rem !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; }
+    .team .team-container .teams .team-members--info {
+      margin-top: 0; }
+
+  .services-cards .services-cards--content {
+    max-width: 45rem !important;
+    margin: auto; } }
+@media (min-width: 61.875rem) {
+  .about .about-container .about-content {
+    max-width: 45.75rem;
+    margin: auto; }
+
+  .about-why-us--container {
+    max-width: 45.75rem !important;
+    margin: auto; }
+
+  .services-cards .services-cards--content {
+    max-width: 100% !important;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem; }
+    .services-cards .services-cards--content .card-item {
+      margin-top: 0 !important; }
+
+  .testimonials .testimonial-slider--container {
+    max-width: 100% !important;
+    margin: auto; }
+    .testimonials .testimonial-slider--container .testimonial-slider {
+      width: 26rem;
+      margin: auto; } }
+@media (min-width: 68.75rem) {
+  .about .about-container .about-content {
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    gap: 2rem; }
+    .about .about-container .about-content .about-content--info {
+      margin-top: 0; }
+
+  .team .team-container .teams {
+    max-width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem; }
+    .team .team-container .teams .team-members--info {
+      margin-top: 0; }
+
+  .services-cards .services-cards--content .card-item {
+    display: grid;
+    grid-template-columns: 40% 1fr; } }
+
+/*# sourceMappingURL=general.css.map */
